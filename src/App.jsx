@@ -1,8 +1,14 @@
-import "./App.css";
-import Page from "./components/Page";
+import NavBar from "./components/NavBar";
+import Main from "./components/Main";
+
 
 function App() {
-  return <Page />;
+  return (
+    <>
+      <NavBar />
+      <Main />
+    </>
+  );
 }
 
 export default App;

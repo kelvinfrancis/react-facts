@@ -2,14 +2,16 @@ import React from "react";
 
 function Main() {
   return (
-    <main>
-      <h1>Reasons I'm exited to learn React</h1>
-      <ol>
-        <li>Be like the coolest Devs out there 😎</li>
-        <li>Better Job opportunities</li>
-        <li>More Money</li>
-      </ol>
-    </main>
+      <main>
+        <h1>Fun facts about React</h1>
+        <ul className="facts-list">
+          <li>Was first released in 2013</li>
+          <li>Was originally created by Jordan Walke</li>
+          <li>Has well over 200k stars on Github</li>
+          <li>Is maintained by Meta</li>
+          <li>Powers thousands of entreprise apps, including mobile apps</li>
+        </ul>
+      </main>
   );
 }
 
