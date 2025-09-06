@@ -4,14 +4,14 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #282d35;
   color: white;
 }
 
 header {
   height: 90px;
-  background-color: #21222A;
+  background-color: #21222a;
   padding: 30px 25px;
 }
 
@@ -33,6 +33,9 @@ nav > span {
 
 main {
   padding: 60px 30px;
+  background-image: url(./assets/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position: right 70%;
 }
 
 main > h1 {
@@ -48,4 +51,9 @@ main > h1 {
 .facts-list > li {
   padding-block: 10px;
   line-height: 19px;
+}
+
+.facts-list > li::marker {
+  color: #00d8ff;
+  font-size: 1.5rem;
 }
